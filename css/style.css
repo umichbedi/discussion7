@@ -1,0 +1,16 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body > a:first-child {
+    position: absolute;
+    top: -50px;
+}
+
+body > a:first-child:focus {
+    top: 0px;
+}
+
+current {
+    color: yellow;
+}
